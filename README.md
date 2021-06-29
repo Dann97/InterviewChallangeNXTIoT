@@ -1,5 +1,8 @@
 # interviewchallenge
-
+```
+Este proyecto consiste en que los usuarios se puedan registrar y de manera 
+independiente , generen una lista de pendientes .
+```
 ## Project setup
 ```
 npm install
