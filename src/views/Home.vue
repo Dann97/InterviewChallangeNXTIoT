@@ -63,7 +63,9 @@ export default {
           data=>{
             // console.log(data)
             if(data.data.status=="ok"){
-              alert("Bienvenido")
+              // alert("Bienvenido")
+            localStorage.token=data.data.result.token;
+            this.$router.push('dashboard')
             }else{
               this.error=true;
               this.error_msg=data.data.result.error_msg;
